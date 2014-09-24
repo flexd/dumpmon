@@ -12,7 +12,7 @@ class PastiePaste(Paste):
     def __init__(self, id):
         self.id = id
         self.headers = None
-        self.url = 'http://pastie.org/pastes/' + self.id + '/text'
+        self.url = 'http://pastie.org/pastes/' + self.id + '/download'
         super(PastiePaste, self).__init__()
 
 
